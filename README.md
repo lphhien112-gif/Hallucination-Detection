@@ -1,8 +1,6 @@
 
 # UIT Data Science Challenge 2025: Phát hiện Ảo giác trong LLM Tiếng Việt
 
-**Team Name:** [Điền Tên Đội Của Bạn]
-
 **Track:** Hallucination Detection
 
 ## 📖 Tổng quan (Overview)
