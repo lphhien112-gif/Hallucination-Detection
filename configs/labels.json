@@ -1,0 +1,12 @@
+{
+  "LABEL2ID": {
+    "no": 0,
+    "intrinsic": 1,
+    "extrinsic": 2
+  },
+  "ID2LABEL": {
+    "0": "no",
+    "1": "intrinsic",
+    "2": "extrinsic"
+  }
+}

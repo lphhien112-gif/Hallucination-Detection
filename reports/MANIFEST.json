@@ -1,0 +1,18 @@
+{
+  "artifacts": {
+    "teacher_ckpt": "teacher.pt",
+    "teacher_temp": "temp.json",
+    "pairs_raw": "ce_pairs_raw.csv",
+    "pairs_balanced": "ce_pairs_balanced.csv",
+    "coverage_train": "hybrid_train_v3_coverage.csv",
+    "coverage_val": "hybrid_val_v3_coverage.csv",
+    "semantic_train": "train_v3_semantic.csv",
+    "semantic_val": "val_v3_semantic.csv",
+    "coverage_train_with_mass": "hybrid_train_v3_coverage_with_mass.csv",
+    "coverage_val_with_mass": "hybrid_val_v3_coverage_with_mass.csv",
+    "coverage_test_with_mass": "hybrid_test_v3_coverage_with_mass.csv",
+    "gate_report": "gate_report.json",
+    "label_map": "labels.json"
+  },
+  "notes": "All coverage/mass files are keyed by the RAW id (no idx)."
+}

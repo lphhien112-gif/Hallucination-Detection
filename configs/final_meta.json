@@ -1,0 +1,53 @@
+{
+  "pretrained": "vinai/phobert-large",
+  "LABEL2ID": {
+    "no": 0,
+    "intrinsic": 1,
+    "extrinsic": 2
+  },
+  "ID2LABEL": {
+    "0": "no",
+    "1": "intrinsic",
+    "2": "extrinsic"
+  },
+  "T": 0.8105575442314148,
+  "cfg": {
+    "train_csv": "/kaggle/input/dsc-uit-2025/vihallu-train.csv",
+    "test_csv": "/kaggle/input/dsc-uit-2025/vihallu-private-test.csv",
+    "CE_DIR": "/kaggle/input/ce-gate-pipeline-v3-3",
+    "cov_train_mass": "hybrid_train_v3_coverage_with_mass.csv",
+    "cov_val_mass": "hybrid_val_v3_coverage_with_mass.csv",
+    "cov_test_mass": "hybrid_test_v3_coverage_with_mass.csv",
+    "labels_json": "labels.json",
+    "id_col": "id",
+    "prm_col": "prompt",
+    "rsp_col": "response",
+    "ctx_col": "context",
+    "lab_col": "label",
+    "pretrained_cls": "vinai/phobert-large",
+    "max_len": 256,
+    "batch_size": 8,
+    "epochs": 8,
+    "lr_backbone": 0.00001,
+    "lr_head": 0.0001,
+    "weight_decay": 0.01,
+    "warmup_ratio": 0.1,
+    "grad_clip": 1,
+    "label_smoothing": 0.05,
+    "rdrop_alpha": 0.5,
+    "use_ema": true,
+    "ema_decay": 0.999,
+    "use_fgm": true,
+    "fgm_eps": 0.5,
+    "do_temp_scale": true,
+    "do_tta": false,
+    "tta_passes": 8,
+    "do_pseudo": false,
+    "pseudo_conf_th": 0.9,
+    "pseudo_epochs": 2,
+    "do_ensemble": false,
+    "outdir": "/kaggle/working/final_classifier",
+    "seed": 42,
+    "device": "cuda"
+  }
+}
