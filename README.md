@@ -1,8 +1,3 @@
-Dựa trên cấu trúc thư mục và kết quả bạn đã cung cấp, đây là nội dung đầy đủ và chuyên nghiệp cho file `README.md`. Bạn hãy tạo file này ở thư mục gốc của dự án.
-
-Nội dung này được viết bằng **Tiếng Việt** (để phù hợp với Ban giám khảo cuộc thi UIT) nhưng giữ các thuật ngữ chuyên ngành bằng Tiếng Anh để đảm bảo tính chính xác.
-
----
 
 # UIT Data Science Challenge 2025: Phát hiện Ảo giác trong LLM Tiếng Việt
 
@@ -63,11 +58,11 @@ uit-dsc-hallucination-detection/
 |
 ├── models/                         # Nơi chứa trọng số (Không push lên Git, chỉ lưu link)
 │   ├── teacher/
-│   │   └── teacher.pt              # Tải từ Kaggle Dataset 1
+│   │   └── teacher.pt              # [Tải từ Kaggle Dataset 1](https://www.kaggle.com/datasets/honghien123/ce-gate-pipeline-v3-3)
 │   └── classifier/
-│       ├── final_model.pt          # Tải từ Kaggle Dataset 2
-│       └── final_best.pt           # Tải từ Kaggle Dataset 2
-│
+│       ├── final_model.pt          # [Tải từ Kaggle Dataset 2](https://www.kaggle.com/datasets/honghien123/artefactmodel-ce-gate-pipeline-v3)
+│       └── final_best.pt           # [Tải từ Kaggle Dataset 2](https://www.kaggle.com/datasets/honghien123/artefactmodel-ce-gate-pipeline-v3)
+|
 ├── notebooks/                      # Mã nguồn chạy thử nghiệm
 │   ├── 01_ce_gate_pipeline.ipynb
 │   └── 02_final_classifier.ipynb
