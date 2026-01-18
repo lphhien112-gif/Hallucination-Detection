@@ -94,8 +94,7 @@ Yêu cầu Python 3.10+ và PyTorch có hỗ trợ CUDA.
 
 ```bash
 # Clone repository
-[git clone https://github.com/MRzMuxRom/uit-dsc-hallucination-detection.git
-](https://github.com/lphhien112-gif/Hallucination-Detection/edit/master/README.md)
+git clone https://github.com/lphhien112-gif/Hallucination-Detection.git
 cd uit-dsc-hallucination-detection
 
 # Cài đặt thư viện
